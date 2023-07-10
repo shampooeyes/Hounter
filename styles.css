@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Lexend';
+    src: url(./assets/fonts/Lexend.ttf);
+}
+
+body, html {
+    font-family: 'Lexend';
+}
+
+.bg-primary {
+    background-color: #10B981;
+}
+
+.bg-secondary {
+    background-color: #D1FAE5;
+}
+
+#logo {
+    top: 40px;
+    left: 120px;
+    position: absolute;
+}
+
+.navbar {
+    position: absolute;
+    right: 120px;
+    margin-top: 40px;
+    
+}
+
+nav div ul {
+    list-style-type: none;
+}
+
+nav div li {
+    padding-inline: 12px;
+    font-size: 14;
+    font-weight: 600;
+}
+
+.bg-blur {
+    position: absolute;
+}
+
+.blur2 {
+    top: 0px;
+    left: 74px;
+    display: inline;
+}
+
+.nav-primary {
+    background-color: #D1FAE5;
+    height: 48px;
+    color: #047857;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 32px;
+    padding: 12px 24px;
+}
+
+.nav-primary:hover {
+    background-color: #047857;
+    color: #fff;
+}
+
+.nav-secondary {
+    background-color: rgba(255, 255, 255, 0.3);
+    
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border: #fff;
+    border-radius: 32px;
+}
