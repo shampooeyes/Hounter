@@ -1,56 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hounter</title>
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
 
-</head>
+  <body>
+   
+      <img src="./assets/images/logo.png" id="logo" alt="company logo" class="logoImage">
+        <div class="row justify-content-between parent">
+            <div class="col-md-4 block1">
 
-<body>
-    <img src="./assets/images/top_right_blur1.png" alt="" class="bg-blur blur1">
-    <img src="./assets/images/top_right_blur2.png" alt="" class="bg-blur blur2">
-    <img src="./assets/images/logo.png" id="logo" alt="company logo">
-
-    <nav class="navbar navbar-expand-md navbar-light">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
-            aria-controls="main-nav" aria-expanded="false" aria-label="toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="main-nav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link nav-secondary px-3" href="#about-us">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-secondary px-3" href="#about-us">Article</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-secondary px-3" href="#about-us">Property</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link main-btn px-4" href="#about-us">Sign Up!</a>
-                </li>
-
-            </ul>
-
-        </div>
-    </nav>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 d-flex px-5">
-                <div class="my-auto">
-                    <h1 class="mb-3">
+                <div class="infoBlock">
+                    <h1 class="mb-3" >
                         Find The Place To<br>Live <span class="outlined-text">Your Dreams</span><br>Easily Here
                     </h1>
-
+        
                     <p class="lead description mb-4">Everything you need about finding your place to live will be<br>here,
                         where
                         it will be easier for you</p>
@@ -75,13 +47,39 @@
                         <img src="./assets/images/airbnb_logo.png" alt="" >
                         <img src="./assets/images/tripadvisor_logo.png" alt="" >
                     </div>
-                    
                 </div>
-            </div>
-            <div class="col-md-6">
-                <img src="./assets/images/home-1.png" alt="image of a home">
 
-                <div>
+            </div>
+            
+            <div class="col-md-4 block2">
+                <nav class="navbar navbar-expand-md navbar-light ">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+                        aria-controls="main-nav" aria-expanded="false" aria-label="toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            
+                    <div class="collapse navbar-collapse" id="main-nav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link nav-secondary px-3" href="#about-us">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-secondary px-3" href="#about-us">Article</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-secondary px-3" href="#about-us">Property</a>
+                            </li>
+            
+                            <li class="nav-item">
+                                <a class="nav-link main-btn px-4" href="#about-us">Sign Up!</a>
+                            </li>
+            
+                        </ul>
+            
+                    </div>
+                </nav>
+
+                
                     <div class="bg-white pe-4 d-flex align-items-center mcard">
                         <img src="assets/images/profile-pics.png" alt="" class="me-2">
                         <div>
@@ -105,53 +103,46 @@
                             <h5>People</h5>
                         </div>
                     </div>
-                </div>
-                
+             
             </div>
         </div>
-    </div>
-
-    <section class="featured">
+    
+    <div class="d-flex">
+      <section class="featured">
         <div class="display-6 mb-3">--- Our Recommendations</div>
         <div class="d-flex mb-5">
-            <h2>Featured House</h2>
-            <div class="pills d-flex">
-                <div class="filter-pill-selected">
-                    <i class="bi bi-house-door-fill"></i> Home
-                </div>
+        <h2>Featured House</h2>
+        <div class="pills d-flex">
+          <div class="filter-pill-selected">
+            <i class="bi bi-house-door-fill"></i> Home
+          </div>
 
-                <div class="filter-pill mx-5">
-                    <i class="bi bi-buildings"></i> Villa
-                </div>
+        <div class="filter-pill mx-5">
+            <i class="bi bi-buildings"></i> Villa
+          </div>
 
-                <div class="filter-pill">
-                    <i class="bi bi-building"></i> Apartment
-                </div>
-            </div>
+        <div class="filter-pill">
+            <i class="bi bi-building"></i> Apartment
+          </div> 
+         </div>
 
-            <div class="nav-buttons d-flex">
-                <div class="nav-btns nav-back me-3">
-                    <i class="bi bi-arrow-left-short d-flex"></i>
-                </div>
+        <div class="nav-buttons d-flex">
+          <div class="nav-btns nav-back me-3">
+            <i class="bi bi-arrow-left-short d-flex"></i>
+          </div>
 
-                <div class="nav-btns nav-forward">
-                    <i class="bi bi-arrow-right-short d-flex"></i>
-                </div>
-            </div>
+          <div class="nav-btns nav-forward">
+            <i class="bi bi-arrow-right-short d-flex"></i>
+          </div>
+        </div> 
         </div>
 
         <div class="listing">
-            <img src="./assets/images/home-3.png" alt="">
-            <h3 class="listing-title">Roselands House</h3>
-            <div class="display-4">$ 35.000.000</h4>
-        </div>
-
-
-
-    </section>
-
-
-
-</body>
-
+                <img src="./assets/images/home-3.png" alt="">
+                <h3 class="listing-title">Roselands House</h3>
+                <div class="display-4">$ 35.000.000</h4>
+            </div>
+      </section>
+    </div>
+  </body>
 </html>
