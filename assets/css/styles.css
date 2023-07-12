@@ -46,6 +46,12 @@ h5 {
   color: #68799f;
 }
 
+h6 {
+  font-size: 14px;
+  color: #888B97;
+  font-weight: 400;
+}
+
 a {
   text-decoration: none;
 }
@@ -55,10 +61,22 @@ a {
   font-weight: 500;
 }
 
+.display-3 {
+  color: #0e1735;
+  font-size: 18px;
+  font-weight: 500;
+}
+
 .display-4 {
   font-size: 20px;
   font-weight: 500;
   color: #3c4563;
+}
+
+.display-5 {
+  color: #888B97;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .display-6 {
@@ -212,7 +230,7 @@ input {
 }
 
 .pills {
-  margin-inline: 160px;
+  /* margin-inline: 160px; */
 }
 
 .filter-pill {
@@ -327,3 +345,110 @@ input {
   position: absolute;
   left: 50;
 } */
+
+.profile-info {
+  position: relative;
+  left: 56px;
+}
+
+.badge {
+  position: absolute;
+  /* top: 332px; */
+  margin-top: 332px;
+  margin-left: 16px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  background-color: #FEE2E2;
+}
+
+.badge-icon {
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.list-card {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+section.articles {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 225px;
+  padding-inline: 100px;
+}
+
+hr.small {
+  width: 32px;
+  height: 3px;
+  border-radius: 2px;
+  color: transparent;
+  background-color: #f59e0b;
+  opacity: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.article-card {
+  margin-bottom: 40px;
+  text-align: start;
+}
+
+
+.timestamp {
+  color: #888B97;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.subscribe {
+display: grid;
+  height: 312px;
+  padding: 60px 300px;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.subscribe-bg {
+  background: url(../images/card-bg.png) no-repeat;
+  margin: 140px 120px;
+}
+
+.subscribe-btn {
+  background-color: #10b981;
+  padding: 13px 16px;
+  display: inline-flex;
+  align-items: center;
+  height: 46px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 32px;
+}
+
+.subscribe-input-field {
+  display: flex;
+  margin-top: 32px;
+  height: 56px;
+  width: 496px;
+  border: 1px solid #e0e3eb;
+  align-items: center;
+  justify-content: start;
+  padding-left: 27px;
+  border-radius: 32px;
+  box-shadow: 0px 9px 8px 0px rgba(89, 92, 219, 0.05);
+}
+
+.footer {
+  height: 180px;
+  margin: 140px 120px;
+}
