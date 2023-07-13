@@ -112,6 +112,7 @@ a {
   margin-top: 40px;
   z-index: 1;
   position: absolute;
+  white-space: nowrap;
   right: 120px;
 }
 
@@ -157,6 +158,10 @@ nav div li {
   align-content: center;
 }
 
+#search-term:focus-visible{
+  outline: none;
+}
+
 .search-btn {
   background-color: #10b981;
   padding: 13px 16px;
@@ -167,6 +172,10 @@ nav div li {
   font-size: 14px;
   font-weight: 600;
   border-radius: 32px;
+}
+
+.search-btn:hover {
+  background-color: #047857;
 }
 
 .main-btn:hover {
@@ -282,13 +291,14 @@ input {
   background: url("../images/top_right_blur1.png") no-repeat;
 
   position: relative;
-  width: 700px;
   height: 720px;
 }
 
 .block2 {
   background: url("../images/home-1.png") no-repeat;
-  width: 700px;
+  background-size: cover;
+  background-position: center;
+  width: 50%;
   height: 720px;
   position: relative;
 }
@@ -406,7 +416,6 @@ hr.small {
   color: #888B97;
   display: flex;
   align-items: center;
-  vertical-align: middle;
 }
 
 .subscribe {
@@ -420,6 +429,7 @@ display: grid;
 
 .subscribe-bg {
   background: url(../images/card-bg.png) no-repeat;
+  background-size: 100%;
   margin: 140px 120px;
 }
 
@@ -433,6 +443,11 @@ display: grid;
   font-size: 14px;
   font-weight: 600;
   border-radius: 32px;
+  white-space: nowrap;
+}
+
+.subscribe-btn:hover {
+  background-color: #047857;
 }
 
 .subscribe-input-field {
@@ -449,6 +464,24 @@ display: grid;
 }
 
 .footer {
-  height: 180px;
-  margin: 140px 120px;
+  position: relative;
+  height: 100%;
+  padding: 140px 120px;
+}
+
+.footer-links {
+  display: block;
+  font-size: 14px;
+  color: #888B97;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+
+.footer-links:hover {
+  text-decoration: underline;
+  
+}
+
+#avatar-5 {
+  width: 15%;
 }
