@@ -505,6 +505,10 @@ hr.small {
   display: none;
 }
 
+.search-btn-xs {
+  display: none;
+}
+
 
 @media (max-width: 1100px) {
 
@@ -609,7 +613,7 @@ hr.small {
 
   .navbar {
     right: 40px;
-  }f
+  }
 
   #logo {
     left: 20px;
@@ -693,8 +697,8 @@ hr.small {
   .mcard, .mcard1, .mcard2 {
     padding: 10px!important;
     height: 45%;
-    /* width: 50%; */
-    width: fit-content;
+    width: 60%;
+    /* width: fit-content; */
     margin-right: 0;
     margin-bottom: 10px;
     box-shadow: 0 0.3rem 0.6rem rgba(0,0,0,.1)!important;
@@ -702,6 +706,37 @@ hr.small {
 
   .featured {
     margin-inline: 20px;
+  }
+
+  .feat-row {
+    flex-direction: column;
+    margin-bottom: 0!important;
+  }
+  
+  .feat-row > * {
+    margin-bottom: 15px!important;
+  }
+
+  .featured h2 {
+    font-size: 18px;
+  }
+
+  .filter-pill {
+    padding: 6px 12px!important;
+  }
+
+  .filter-pill:focus {
+    padding: 6px 12px!important;
+  }
+
+  .filter-pill:focus ~ p {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+
+  .nav-btns {
+    height: 32px;
+    width: 32px;
   }
   
   .listing-title {
@@ -735,7 +770,7 @@ hr.small {
   }
 
   .profile-info h4 {
-    margin-bottom: 4px;
+    margin-bottom: 8px;
   }
 
   .profile-info {
@@ -744,6 +779,11 @@ hr.small {
 
   section.articles {
     padding-inline: 0;
+  }
+
+  .articles .row {
+    margin-top:2rem!important;
+    margin-inline: 0px;
   }
 
   .article-card img{
@@ -824,3 +864,4 @@ hr.small {
   height: 720px;
   position: relative;
 } */
+
