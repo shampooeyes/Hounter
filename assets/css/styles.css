@@ -115,6 +115,11 @@ a {
   position: absolute;
   white-space: nowrap;
   right: 120px;
+  justify-content: end;
+}
+
+.navbar-collapse.show {
+  background-color: white;
 }
 
 nav div ul {
