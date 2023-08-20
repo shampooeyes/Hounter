@@ -117,9 +117,40 @@ a {
   right: 120px;
   justify-content: end;
 }
+v
+.navbar-collapse.collapsing {
+  width: 120px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 9px 8px 0px rgba(89, 92, 219, 0.1);
+}
+
+.navbar-collapse.collapsing .main-btn {
+  margin: 0;
+}
 
 .navbar-collapse.show {
+  width: 120px;
+  padding: 15px;
   background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 9px 8px 0px rgba(89, 92, 219, 0.1);
+}
+.navbar-toggler {
+  border-color: transparent!important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-collapse.show .main-btn{
+  margin: 0;
+}
+
+.bi-chevron-right {
+  font-size: 15px;
 }
 
 nav div ul {
@@ -371,7 +402,6 @@ input {
 
 .badge {
   position: absolute;
-  /* top: 332px; */
   margin-top: 332px;
   margin-left: 16px;
   padding: 8px 16px;
@@ -506,6 +536,10 @@ hr.small {
 
 }
 
+.footer .bi {
+  color: #3C4563;
+}
+
 .filter-pill~p {
   display: none;
 }
@@ -617,7 +651,7 @@ hr.small {
   }
 
   .navbar {
-    right: 40px;
+    right: 20px;
   }
 
   #logo {
@@ -761,11 +795,7 @@ hr.small {
     margin-top: 30px;
     margin-right: 20px;
   }
-
-  /* .list-card img {
-    max-width: 24px;
-  } */
-
+  
   .badge {
     margin-top: 135px;
     padding: 4px 10px;
